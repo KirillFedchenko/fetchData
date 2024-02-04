@@ -31,7 +31,9 @@ body {
 
 .id {
   text-align: center;
+  width: 250px;
   padding: 10px;
   background-color: hsl(150, 50%, 40%);
   border-radius: 10px;
+  overflow: hidden;
 }
