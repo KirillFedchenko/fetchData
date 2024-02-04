@@ -1,0 +1,37 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+/* 
+<div class="id">
+  <h2>Name</h2>
+  <p>Username</p>
+  <p>Email</p>
+  <div class="address">
+    <h3>City</h3>
+    <p>Street</p>
+  </div>
+</div>
+*/
+
+#wrapper {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 10px;
+  padding: 10px;
+}
+
+.id {
+  text-align: center;
+  padding: 10px;
+  background-color: hsl(150, 50%, 40%);
+  border-radius: 10px;
+}
